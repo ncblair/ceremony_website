@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'ceremony';
+  src: url('DIN Medium Regular.ttf');
+}
+
+#logo_contact_container {
+  position:absolute;
+  top:3%;
+  left:3%;
+  width: 10%;
+}
+
+#logo {
+  position:relative;
+  width:100%;
+  border: 1px solid black;
+}
+
+#contact {
+  position: relative;
+  width:100%;
+}
+
+#contact > a {
+  font-family:"ceremony";
+  font-size:20px;
+}
+
+#about_text {
+  font-family: "ceremony";
+  text-align:center;
+  width:70%;
+  margin-top:20px;
+}
+
+#desktop_landing {
+  width:70%;
+  text-align:center;
+  padding-left:15%;
+  padding-top:15%;
+  padding-right:15%;
+}
+
+#desktop_landing > img {
+  display:inline-block;
+  width:30%;
+  margin:9%
+}
+
+#mobile_landing {
+  display:none;
+}
+
