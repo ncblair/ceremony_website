@@ -8,12 +8,12 @@
   top:3%;
   left:3%;
   width: 10%;
+  min-width:100px;
 }
 
 #logo {
   position:relative;
   width:100%;
-  border: 1px solid black;
 }
 
 #contact {
@@ -23,14 +23,17 @@
 
 #contact > a {
   font-family:"ceremony";
-  font-size:20px;
+  font-size:18px;
 }
 
 #about_text {
   font-family: "ceremony";
   text-align:center;
   width:70%;
+  padding-left:15%;
+  padding-right:15%;
   margin-top:20px;
+  font-size:18px;
 }
 
 #desktop_landing {
@@ -51,3 +54,27 @@
   display:none;
 }
 
+
+@media screen and (max-width: 481px){
+
+  #desktop_landing {
+    display:none;
+  }
+  
+  #mobile_landing {
+  	position:relative;
+    display:initial;
+    width:80%;
+    text-align:center;
+    left:10%;
+    top:20%;
+    right:10%;
+    height:auto;
+  }
+  #mobile_landing > img {
+    display:block;
+    width:80%;
+    position:relative;
+  }
+  
+}
