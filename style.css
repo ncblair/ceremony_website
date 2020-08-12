@@ -64,6 +64,13 @@
 	margin-top:50px;
 }
 
+#zine_imgs {
+	margin-top:50px;
+}
+
+.zine_page {
+	width:100%;
+}
 
 @media screen and (max-width: 481px){
 
