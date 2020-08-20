@@ -6,6 +6,8 @@
 body {
 	margin:0;
 	background-color:black;
+	font-family:"ceremony";
+	color:black;
 }
 
 #header {
@@ -40,15 +42,14 @@ body {
 #contact > a {
 	line-height:100%;
 	text-decoration:none;
-	font-family:"ceremony";
 	font-size:18px;
 	margin-left:10%;
 	margin-right:10%;
-	color:black;
 }
 
 #landing-img {
 	width:100%;
+	height:100%;
 }
 
 #landing {
@@ -56,4 +57,58 @@ body {
 	background-color:black;
 	height:90%;
 	text-align:center;
+}
+
+.page {
+	width:80%;
+	height:400px;
+	padding:10%;
+	
+}
+
+#vol2{
+	background-color:white;
+}
+
+#zine2-info{
+    width: 50%;
+    display:inline-block;
+    font-size:24px;
+    text-align:center;
+}  
+
+#zine2-names {
+	font-size:24px;
+    padding:30px;
+    position:relative;
+}
+
+#zine2-download {
+	background-color:rgb(196, 196, 196);
+	width:66%;
+	margin-left:17%;
+	margin-right:17%;
+	position:relative;
+	text-align:center;
+}
+
+#zine2-download > a{
+	text-decoration:none;
+	color:black;
+	line-height:40px;
+}
+
+
+
+#zine2-cover{
+    width: 50%;
+    display:inline-block;
+    text-align:center;
+}  
+
+
+#zine2-cover-img {
+
+	height:75%;
+
 }
