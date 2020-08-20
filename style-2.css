@@ -1,7 +1,59 @@
+@font-face {
+  font-family: 'ceremony';
+  src: url('DIN Medium Regular.ttf');
+}
+
+body {
+	margin:0;
+	background-color:black;
+}
+
 #header {
 	position:fixed;
-	width:80%;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	min-width:400px;
+	height:60px;
+	background-color:white;
+	margin-top:1%;
+}
+
+#logo {
+	top:10%;
+	height:80%;
+	position:absolute;
+	left:1%;
+}
+
+#contact {
+	position:absolute;
+	text-align:center;
+	line-height:60px;
+	left:50%;
+	width:50%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#contact > a {
+	line-height:100%;
+	text-decoration:none;
+	font-family:"ceremony";
+	font-size:18px;
 	margin-left:10%;
 	margin-right:10%;
-	min-width:400px;
+	color:black;
+}
+
+#landing-img {
+	width:100%;
+}
+
+#landing {
+	width:100%;
+	background-color:black;
+	height:90%;
+	text-align:center;
 }
