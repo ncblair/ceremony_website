@@ -17,7 +17,7 @@ body {
 	margin-right:5%;
 	min-width:400px;
 	height:60px;
-	background-color:white;
+	background-color:rgba(255, 255, 255, .7);
 	margin-top:1%;
 }
 
@@ -45,6 +45,7 @@ body {
 	font-size:18px;
 	margin-left:10%;
 	margin-right:10%;
+	color:black;
 }
 
 #landing-img {
@@ -118,10 +119,11 @@ body {
 }
 
 #vol1-logo {
-	width:50%;
+	width:45%;
 	margin-left:25%;
 	margin-right:25%;
-	margin-bottom:10%}
+	margin-bottom:5%
+}
 
 #zine1-info{
     width: 50%;
@@ -137,6 +139,7 @@ body {
 	margin-right:17%;
 	position:relative;
 	text-align:center;
+	margin-top:30px;
 }
 
 #zine1-download > a{
@@ -174,6 +177,7 @@ body {
 	margin-right:17%;
 	position:relative;
 	text-align:center;
+	margin-top:30px;
 }
 
 #event1-download > a{
