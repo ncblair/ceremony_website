@@ -48,6 +48,10 @@ body {
 	color:black;
 }
 
+#contact > a:hover{
+	text-decoration:underline;
+}
+
 #landing-img {
 	width:100%;
 	height:100%;
