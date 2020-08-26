@@ -8,6 +8,9 @@ body {
 	background-color:black;
 	font-family:"ceremony";
 	color:black;
+	min-width:1000;        /* Suppose you want minimum width of 1000px */
+	width: auto !important;  /* Firefox will set width as auto */
+	width:1000;            /* As IE6 ignores !important it will set width as 1000px; */
 }
 
 #header {
@@ -66,13 +69,14 @@ body {
 
 .page {
 	width:80%;
-	height:450px;
-	padding:10%;
+	height:500px;
+	padding:8%;
 	overflow:hidden;
 }
 
 #vol2{
 	background-color:white;
+	height:450px;
 }
 
 #zine2-info{
@@ -86,6 +90,7 @@ body {
 #zine2-names {
 	font-size:24px;
     padding:30px;
+    line-height:1.5em;
 }
 
 #zine2-download {
@@ -120,6 +125,7 @@ body {
 
 #vol1{
 	background-color:rgb(232, 240, 245);
+	padding-top:5%;
 }
 
 #vol1-logo {
@@ -155,14 +161,14 @@ body {
 
 
 #zine1-cover{
-    width: 50%;
+    width: 100%;
     display:inline-block;
     text-align:center;
 }  
 
 
 #zine1-cover-img {
-	height:75%;
+	height:60%;
 }
 
 
@@ -193,14 +199,14 @@ body {
 
 
 #event1-cover{
-    width: 50%;
+    width: 100%;
     display:inline-block;
     text-align:center;
 }  
 
 
 #event1-cover-img {
-	height:75%;
+	height:60%;
 
 }
 
