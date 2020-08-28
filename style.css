@@ -2,98 +2,428 @@
   font-family: 'ceremony';
   src: url('DIN Medium Regular.ttf');
 }
+html {
+	margin:0;
+}
 
-#logo_contact_container {
-  position:absolute;
-  top:3%;
-  left:3%;
-  width: 10%;
-  min-width:150px;
+body {
+	margin:0;
+	background-color:black;
+	font-family:"ceremony";
+	color:black;
+	min-width:1000;        /* Suppose you want minimum width of 1000px */
+	width: auto !important;  /* Firefox will set width as auto */
+	width:1000;            /* As IE6 ignores !important it will set width as 1000px; */
+}
+
+#header {
+	display:none;
+	position:absolute;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	min-width:500px;
+	height:60px;
+	background-color:rgba(255, 255, 255, .7);
+	margin-top:1%;
+	z-index:1;
 }
 
 #logo {
-  position:relative;
-  width:100%;
+	top:10%;
+	height:80%;
+	position:absolute;
+	left:1%;
 }
 
 #contact {
-  position: relative;
-  width:100%;
-  margin-top:40px;
+	position:absolute;
+	text-align:center;
+	line-height:60px;
+	right:0%;
+	width:50%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 #contact > a {
-  font-family:"ceremony";
-  font-size:18px;
-  color:black;
+	line-height:100%;
+	text-decoration:none;
+	font-size:18px;
+	margin-left:5%;
+	margin-right:5%;
+	color:black;
 }
 
-#about_text {
-  font-family: "ceremony";
-  text-align:center;
-  width:70%;
-  padding-left:15%;
-  padding-right:15%;
-  margin-top:20px;
-  font-size:18px;
-  min-width:500px;
+#contact > a:hover{
+	text-decoration:underline;
 }
 
-#desktop_landing {
-  width:70%;
-  text-align:center;
-  padding-left:15%;
-  padding-top:5%;
-  padding-right:15%;
-  min-width:500px;
-}
-
-#desktop_landing > img {
-  display:inline-block;
-  width:30%;
-  margin:9%
-}
-
-#mobile_landing {
-  display:none;
-}
-
-#zine {
+#landing-img {
 	width:100%;
 	height:100%;
-	margin-top:50px;
 }
 
-#zine_imgs {
-	margin-top:50px;
+#mobile-landing-img {
+	display:none;
 }
 
-.zine_page {
-	width:70%;
-	margin-left:15%;
-	margin-right:15%;
+#vol-2-announcement {
+	font-size:52px;
+	font-family:"ceremony";
+	position:absolute;
+	top:77%;
+	left:5%;
+	text-align:left;
+	padding:15px;
 }
+
+#landing {
+	width:100%;
+	height:auto;
+	background-color:black;
+	text-align:center;
+	position:relative;
+}
+
+.page {
+	width:84%;
+	height:500px;
+	padding:8%;
+	overflow:hidden;
+}
+
+#vol2{
+	background-color:white;
+	height:450px;
+	padding-top:5%;
+	padding-bottom:3%;
+}
+
+#zine2-info{
+    width: 50%;
+    display:inline-block;
+    font-size:24px;
+    text-align:center;
+    vertical-align: middle;
+}  
+
+#zine2-names {
+	font-size:24px;
+    padding:30px;
+    line-height:1.5em;
+}
+
+#zine2-download {
+	background-color:rgb(196, 196, 196);
+	width:66%;
+	margin-left:17%;
+	margin-right:17%;
+	position:relative;
+	text-align:center;
+}
+
+#zine2-download > a{
+	text-decoration:none;
+	color:black;
+	line-height:40px;
+}
+
+
+
+#zine2-cover{
+    width: 50%;
+    display:inline-block;
+    text-align:center;
+    vertical-align: middle;
+}  
+
+
+#zine2-cover-img {
+	height:75%;
+}
+
+
+#vol1{
+	background-color:rgb(232, 240, 245);
+	padding-top:5%;
+}
+
+#vol1-logo {
+	width:45%;
+	margin-left:25%;
+	margin-right:25%;
+	margin-bottom:5%
+}
+
+#zine1-info{
+    width: 50%;
+    display:inline-block;
+    font-size:24px;
+    text-align:center;
+}
+
+#zine1-download {
+	background-color:rgb(196, 196, 196);
+	width:66%;
+	margin-left:17%;
+	margin-right:17%;
+	position:relative;
+	text-align:center;
+	margin-top:30px;
+}
+
+#zine1-download > a{
+	text-decoration:none;
+	color:black;
+	line-height:40px;
+}
+
+
+
+#zine1-cover{
+    width: 100%;
+    display:inline-block;
+    text-align:center;
+}  
+
+
+#zine1-cover-img {
+	height:60%;
+}
+
+
+
+#event1-info{
+    width: 50%;
+    display:inline-block;
+    font-size:24px;
+    text-align:center;
+}
+
+#event1-download {
+	background-color:rgb(196, 196, 196);
+	width:66%;
+	margin-left:17%;
+	margin-right:17%;
+	position:relative;
+	text-align:center;
+	margin-top:30px;
+}
+
+#event1-download > a{
+	text-decoration:none;
+	color:black;
+	line-height:40px;
+}
+
+
+
+#event1-cover{
+    width: 100%;
+    display:inline-block;
+    text-align:center;
+}  
+
+
+#event1-cover-img {
+	height:60%;
+
+}
+
+#footer {
+	width:100%;
+	height:100px;
+	background-color:black;
+	color:white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	
+}
+
+#footer-logo {
+	width:18%;
+	margin-right:5%;
+
+}
+
+#footer-info {
+	width:20%;
+	margin-right:25%;
+}
+
+#footer-contact {
+	width:20%;
+	margin-right:5%;
+}
+
+#footer-contact > a {
+	text-decoration:none;
+	color:white;
+	padding-right:10px;
+}
+
 
 @media screen and (max-width: 481px){
 
-  #desktop_landing {
-    display:none;
-  }
-  
-  #mobile_landing {
-  	position:relative;
-    display:initial;
-    width:80%;
-    text-align:center;
-    left:10%;
-    top:20%;
-    right:10%;
-    height:auto;
-  }
-  #mobile_landing > img {
-    display:block;
-    width:80%;
-    position:relative;
-  }
-  
+	body {
+		min-width:0;         /*Suppose you want minimum width of 1000px */
+		width: auto !important;  /* Firefox will set width as auto */
+		width:0;
+	}
+
+	#landing-img {
+		display:none;
+	}
+
+	#mobile-landing-img {
+		width:100%;
+		height:100%;
+		display:initial;
+	}
+
+	#vol-2-announcement {
+		font-size:24px;
+		font-family:"ceremony";
+		width:70%;
+		position:absolute;
+		top:87%;
+		text-align:center;
+		padding:0px;
+		padding-top:15px;
+		padding-bottom:15px;
+		left:15%;
+	}
+
+	#vol2 {
+		background-color:white;
+		height:600px;
+		padding-top:5%;
+		padding-bottom:3%;
+	}
+
+	#zine2-info {
+		width: 100%;
+		display:inline-block;
+		font-size:16px;
+		text-align:center;
+		vertical-align: middle;
+	}  
+
+	#zine2-names {
+		font-size:16px;
+	    padding:30px;
+	    line-height:1em;
+	}
+
+	#zine2-download {
+		background-color:rgb(196, 196, 196);
+		width:66%;
+		margin-left:17%;
+		margin-right:17%;
+		position:relative;
+		text-align:center;
+	}
+
+	#zine2-download > a {
+		text-decoration:none;
+		color:black;
+		line-height:40px;
+	}
+
+
+
+	#zine2-cover {
+	    width: 100%;
+	    display:inline-block;
+	    text-align:center;
+	    vertical-align: middle;
+	    margin-top:20px;
+	}
+
+
+	#zine2-cover-img {
+		width:75%;
+		height:auto;
+	}
+
+	#vol1 {
+		height:800px;
+	}
+
+	#vol1-logo {
+		width:80%;
+		margin-left:10%;
+		margin-right:10%;
+		margin-bottom:5%
+	}
+
+	#zine1-info{
+	    width: 100%;
+	    display:inline-block;
+	    font-size:16px;
+	    text-align:center;
+	}
+
+	#zine1-download > a{
+		text-decoration:none;
+		color:black;
+		line-height:40px;
+	}
+
+	#zine1-cover-img {
+		width:100%;
+		height:auto;
+	}
+
+
+
+	#event1-info{
+	    width: 100%;
+	    display:inline-block;
+	    font-size:16px;
+	    text-align:center;
+	}
+
+
+
+	#event1-cover-img {
+		width:100%;
+		height:auto;
+
+	}
+
+	#footer {
+		font-size:12px;
+		height:100px;
+	}
+
+	#footer-logo {
+		width:18%;
+		margin-right:5%;
+	}
+
+	#footer-info {
+		width:35%;
+		margin-right:10%;
+	}
+
+	#footer-contact {
+		width:20%;
+		margin-right:5%;
+	}
+
+	#footer-contact > a {
+		text-decoration:none;
+		color:white;
+		padding-right:10px;
+	}
+
+
 }
+
+
+
+
