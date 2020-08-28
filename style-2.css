@@ -17,6 +17,7 @@ body {
 }
 
 #header {
+	display:none;
 	position:absolute;
 	width:90%;
 	margin-left:5%;
@@ -64,21 +65,24 @@ body {
 	height:100%;
 }
 
+#mobile-landing-img {
+	display:none;
+}
+
 #vol-2-announcement {
 	font-size:52px;
 	font-family:"ceremony";
 	position:absolute;
-	top:35%;
+	top:77%;
 	left:5%;
 	text-align:left;
-	background-color:rgba(100, 100, 100, .2);
 	padding:15px;
 }
 
 #landing {
 	width:100%;
+	height:auto;
 	background-color:black;
-	height:90%;
 	text-align:center;
 	position:relative;
 }
@@ -93,6 +97,8 @@ body {
 #vol2{
 	background-color:white;
 	height:450px;
+	padding-top:5%;
+	padding-bottom:3%;
 }
 
 #zine2-info{
@@ -252,3 +258,172 @@ body {
 	width:20%;
 	margin-right:5%;
 }
+
+#footer-contact > a {
+	text-decoration:none;
+	color:white;
+	padding-right:10px;
+}
+
+
+@media screen and (max-width: 481px){
+
+	body {
+		min-width:0;         /*Suppose you want minimum width of 1000px */
+		width: auto !important;  /* Firefox will set width as auto */
+		width:0;
+	}
+
+	#landing-img {
+		display:none;
+	}
+
+	#mobile-landing-img {
+		width:100%;
+		height:100%;
+		display:initial;
+	}
+
+	#vol-2-announcement {
+		font-size:24px;
+		font-family:"ceremony";
+		width:70%;
+		position:absolute;
+		top:87%;
+		text-align:center;
+		padding:0px;
+		padding-top:15px;
+		padding-bottom:15px;
+		left:15%;
+	}
+
+	#vol2 {
+		background-color:white;
+		height:600px;
+		padding-top:5%;
+		padding-bottom:3%;
+	}
+
+	#zine2-info {
+		width: 100%;
+		display:inline-block;
+		font-size:16px;
+		text-align:center;
+		vertical-align: middle;
+	}  
+
+	#zine2-names {
+		font-size:16px;
+	    padding:30px;
+	    line-height:1em;
+	}
+
+	#zine2-download {
+		background-color:rgb(196, 196, 196);
+		width:66%;
+		margin-left:17%;
+		margin-right:17%;
+		position:relative;
+		text-align:center;
+	}
+
+	#zine2-download > a {
+		text-decoration:none;
+		color:black;
+		line-height:40px;
+	}
+
+
+
+	#zine2-cover {
+	    width: 100%;
+	    display:inline-block;
+	    text-align:center;
+	    vertical-align: middle;
+	    margin-top:20px;
+	}
+
+
+	#zine2-cover-img {
+		width:75%;
+		height:auto;
+	}
+
+	#vol1 {
+		height:800px;
+	}
+
+	#vol1-logo {
+		width:80%;
+		margin-left:10%;
+		margin-right:10%;
+		margin-bottom:5%
+	}
+
+	#zine1-info{
+	    width: 100%;
+	    display:inline-block;
+	    font-size:16px;
+	    text-align:center;
+	}
+
+	#zine1-download > a{
+		text-decoration:none;
+		color:black;
+		line-height:40px;
+	}
+
+	#zine1-cover-img {
+		width:100%;
+		height:auto;
+	}
+
+
+
+	#event1-info{
+	    width: 100%;
+	    display:inline-block;
+	    font-size:16px;
+	    text-align:center;
+	}
+
+
+
+	#event1-cover-img {
+		width:100%;
+		height:auto;
+
+	}
+
+	#footer {
+		font-size:12px;
+		height:100px;
+	}
+
+	#footer-logo {
+		width:18%;
+		margin-right:5%;
+	}
+
+	#footer-info {
+		width:35%;
+		margin-right:10%;
+	}
+
+	#footer-contact {
+		width:20%;
+		margin-right:5%;
+	}
+
+	#footer-contact > a {
+		text-decoration:none;
+		color:white;
+		padding-right:10px;
+	}
+
+
+}
+
+
+
+
