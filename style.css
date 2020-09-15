@@ -94,6 +94,35 @@ body {
 	overflow:hidden;
 }
 
+#vol2event{
+	background-color: white;
+}
+
+#schedule{
+	width: 50%;
+	display: inline-block;
+	font-size:24px;
+	float: left;
+}
+
+#names{
+	float: left;
+}
+
+#times{
+	float: right;
+}
+
+#cd{
+	width: 40%;
+	float: right;
+}
+
+#cdcase{
+	width: 50%;
+	display: inline-block;
+}
+
 #vol2{
 	background-color:white;
 	height:450px;
@@ -263,6 +292,15 @@ body {
 	text-decoration:none;
 	color:white;
 	padding-right:10px;
+}
+
+.clearfix:after{
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 
