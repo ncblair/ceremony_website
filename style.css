@@ -94,19 +94,53 @@ body {
 	overflow:hidden;
 }
 
+button {
+  	margin: 10px;
+  	padding: 15px;
+  	border: 2px solid #FFFFFF;
+  	border-radius: 6px;
+  	text-align: center;
+  	display: inline-block;
+  	text-transform: uppercase;
+  	position: relative;
+  	color:white;
+  	font-family:"ceremony";
+  	font-size: 20px;
+  	background-color: transparent;
+  	filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.10));
+}
+
+button:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: black;
+}
+
 #vol2event{
-	background-color: white;
+	background-color: black;
+	padding: 5% 0%;
+}
+
+#add{
+	font-size: .7em;
 }
 
 #schedule{
-	width: 50%;
+	float:left;
+	position: relative;
+	padding-left: 2%;
+	margin-left: 15%;
+	height:auto;
+	width: 30%;
+	font-size: 1.5em;
 	display: inline-block;
-	font-size:24px;
-	float: left;
+	color: white;
 }
 
 #names{
 	float: left;
+	text-align: right;
+	display: inline-block;
 }
 
 #times{
@@ -114,13 +148,35 @@ body {
 }
 
 #cd{
-	width: 40%;
 	float: right;
+	width: 30%;
+	margin-left: 2%;
+	padding-right: 13%;
+	position: relative;
 }
 
 #cdcase{
-	width: 50%;
-	display: inline-block;
+	width: 100%;
+}
+
+.clearfix:after{
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ul{
+	list-style: none;
+	line-height: 1.7em;
+	display: block;
+}
+
+#vol2eventwatch{
+	margin-left: 20%;
+	margin-top: 2%;
 }
 
 #vol2{
@@ -292,15 +348,6 @@ body {
 	text-decoration:none;
 	color:white;
 	padding-right:10px;
-}
-
-.clearfix:after{
-	visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
 }
 
 
